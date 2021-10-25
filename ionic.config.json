@@ -1,0 +1,7 @@
+{
+  "name": "lobbi",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "lobbi",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
