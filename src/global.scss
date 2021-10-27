@@ -24,3 +24,98 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+.ion-color-orange {
+    --ion-color-base: var(--ion-color-orange);
+    --ion-color-base-rgb: var(--ion-color-orange-rgb);
+    --ion-color-contrast: var(--ion-color-orange-contrast);
+    --ion-color-contrast-rgb: var(--ion-color-orange-contrast-rgb);
+    --ion-color-shade: var(--ion-color-orange-shade);
+    --ion-color-tint: var(--ion-color-orange-tint);
+}
+
+//Ion Swiper
+.swiper-pagination-bullet-active {
+    background: gray;
+}
+
+.swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+}
+
+//Bootstrap Accordion
+.accordion-button:not(.collapsed) {
+    color: black !important;
+    background-color: #e6e6e6 !important;
+    font-weight: bold;
+}
+
+.accordion-body {
+    background-color: #f2f2f2;
+}
+
+.accordion-button {
+    font-weight: bold !important;
+    letter-spacing: 1.5px !important;
+}
+
+.accordion-button::after {
+    background-image: url('./assets/imgs/add-outline.svg') !important;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url('./assets/imgs/remove-outline.svg') !important;
+}
+
+//Ion Menu
+.menuItems {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.menuLabel {
+    font-weight: bold;
+}
+
+//Content Max-Width
+.container {
+    max-width: 1440px;
+}
+
+.title {
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: -2px;
+}
+
+.subtitle {
+    color: #b3b3b3;
+    letter-spacing: 2px;
+}
+
+.custom-button {
+    width: 250px;
+    height: 50px;
+    --border-radius: 100px;
+    text-transform: none;
+    font-size: 18px;
+}
+
+@media only screen and ( max-width: 769px ) {
+    .title {
+        font-size: 30px;
+    }
+
+    .subtitle {
+        font-size: 16px;
+    }
+
+    .custom-button {
+        width: 220px;
+        height: 40px;
+        font-size: 14px;
+    }
+}

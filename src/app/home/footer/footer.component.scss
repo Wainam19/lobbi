@@ -1,0 +1,22 @@
+.footer-nav {
+    background-color: #404040;
+    padding: 20px 0;
+}
+  
+.footer-item {
+    display: flex;
+    justify-content: space-between;
+}
+  
+.footer-info {
+    color: gray;
+    display: flex;
+    align-items: center;
+    font-size: clamp(12px, 14px, 16px);
+}
+
+@media only screen and ( max-width: 768px ) {
+    .desktop-footer {
+        display: none;
+    }
+}

@@ -1,3 +1,38 @@
 <ion-app>
-  <ion-router-outlet></ion-router-outlet>
+  <!-- Menu Items -->
+  <ion-menu side="end">
+    <ion-content>
+      <ion-grid>
+        <ion-row class="ion-justify-content-center">
+          <ion-col>
+            <ion-list>
+              <ion-menu-toggle>
+                <div class="menuItems">
+                  <div class="menuLabel ion-margin-vertical">
+                    <ion-label>What is Lobbi</ion-label>
+                  </div>
+                  <div class="menuLabel ion-margin-vertical">
+                    <ion-label>Lobbi Web</ion-label>
+                  </div>
+                  <div class="menuLabel ion-margin-vertical">
+                    <ion-label>Features</ion-label>
+                  </div>
+                  <div class="menuLabel ion-margin-vertical">
+                    <ion-label>News</ion-label>
+                  </div>
+                  <div class="menuLabel ion-margin-vertical">
+                    <ion-label>FAQ</ion-label>
+                  </div>
+                  <div class="menuLabel ion-margin-vertical">
+                    <ion-label>Contact</ion-label>
+                  </div>
+                </div>
+              </ion-menu-toggle>
+            </ion-list>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-content>
+  </ion-menu>
+  <ion-router-outlet main></ion-router-outlet>
 </ion-app>

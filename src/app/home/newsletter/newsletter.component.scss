@@ -1,0 +1,28 @@
+.newsletter-container {
+    padding: 20px;
+    max-width: 1440px;
+    background-color: #f2f2f2;
+}
+
+.subscribe-text {
+    display: flex;
+    color: #666666;
+    justify-content: space-between;
+    font-size: clamp(8px, 12px, 18px);
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+  
+.condition-text {
+    font-size: 11px;
+    color: grey;
+    padding: 5px 90px;
+    text-align: justify;
+    border-top: 1px solid black;
+}
+
+@media only screen and ( max-width: 600px ) {
+    .condition-text {
+        padding: 10px;
+    }
+}

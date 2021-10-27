@@ -1,0 +1,64 @@
+.info-container {
+    padding: 20px;
+    max-width: 1440px;
+    background-color: #f2f2f2;
+}
+
+.endLine {
+    background-color: lightgrey;
+}
+
+.addressHeight {
+    height: 75px;
+}
+
+.label-border {
+    border-right: 3px solid;
+}
+
+.labels {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.iconSize {
+    font-size: 20px;
+    margin-right: 10px;
+}
+  
+.labelsDetail {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.infoLabel {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.socialIcon {
+    font-size: 24px;
+    margin: 5px;
+}
+
+.custom-input {
+    background-color: white;
+}
+
+.info-button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media only screen and ( max-width: 768px ) {
+    .info-container {
+        padding: 20px;
+    }
+
+    .addressHeight {
+        height: 100px;
+    }
+}

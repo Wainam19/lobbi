@@ -1,0 +1,79 @@
+.advertise2-subtitle {
+    color: #b3b3b3;
+    letter-spacing: 2px;
+}
+
+.whyDesktop {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.doFlex {
+    display: flex;
+}
+
+.advertise2-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex-text-1 {
+    text-align: end;
+}
+
+.advertise2-text-title {
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.advertise-description {
+    color: grey;
+}
+
+.advertise2-container-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 60px;
+}
+
+.whyMobile {
+    display: flex;
+}
+
+@media only screen and ( min-width: 769px ) {
+    .whyDesktop {
+        display: flex;
+    }
+
+    .whyMobile {
+        display: none;
+    }
+}
+
+@media only screen and ( max-width: 768px ) {
+    .whyDesktop {
+        display: none;
+    }
+
+    .blankPhone {
+        display: none;
+    }
+
+    .whyMobile {
+        display: block;
+    }
+
+    .whyImage {
+        max-width: unset;
+    } 
+}
+
+@media only screen and (min-width: 992px) {
+    .advertise2-container-image {
+      width: 200px;
+    }
+  }

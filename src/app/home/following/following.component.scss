@@ -1,0 +1,9 @@
+.following-button {
+    margin: 50px;
+}
+
+@media only screen and ( max-width: 768px ) {
+    .following-button {
+        margin: 20px;
+    }
+}

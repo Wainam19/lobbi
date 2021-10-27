@@ -1,0 +1,104 @@
+.centerImage {
+    text-align: center;
+}
+
+.animateLeft {
+    position: relative;
+    animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 300px}
+}
+
+.advertise-title {
+    align-items: center;
+    color: orangered;
+    display: flex;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: -2px;
+    width: 100%;
+}
+
+.advertise-subtitle {
+    color: #b3b3b3;
+    font-size: 20px;
+}
+
+.doubleButton {
+    display: flex;
+}
+
+.line-after::after {
+    content: "";
+    border-top: 2px solid;
+    margin: 0 0 0 30px;
+    flex: 0.5 0 20px;
+}
+
+.animateRight {
+    position: relative;
+    animation: mymove2 5s infinite;
+  }
+  
+@keyframes mymove2 {
+    from {right: 0px;}
+    to {right: 300px}
+}
+
+@media only screen and ( max-width: 768px ) {
+    .advertise-title {
+        justify-content: center;
+    }
+
+    .advertise-center {
+        text-align: center;
+    }
+
+    .doubleButton {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .line-after::after {
+        display: none;
+    }
+
+    .moments-mobile {
+        display: block;
+    }
+    
+      .moments-desktop {
+        display: none;
+    }
+}
+
+@media only screen and ( min-width: 769px ) {
+    .buttonSpace {
+      margin-right: 100px;
+    }
+
+    .moments-mobile {
+        display: none;
+    }
+
+    .doubleButton {
+        display: unset;
+    }
+}
+
+@media only screen and ( max-width: 769px ) {
+    .advertise-title {
+        font-size: 30px;
+    }
+
+    .advertise-subtitle {
+        font-size: 18px;
+    }
+
+    .centerImage {
+        max-width: 60%;
+    }
+}

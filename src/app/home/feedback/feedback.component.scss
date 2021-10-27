@@ -1,0 +1,63 @@
+.feedbackContainer {
+    max-width: 600px;
+}
+
+.feedbackText {
+    font-size: clamp(12px, 16px, 18px);
+    letter-spacing: 0.1rem;
+    color: grey;
+    font-style: italic;
+    position: relative;
+    text-align: justify;
+}
+
+.openQ {
+    font-size: 80px;
+    color: lightgray;
+    position: absolute;
+    top: -30px;
+    left: -40px;
+}
+
+.closeQ {
+    position: absolute;
+    font-size: 80px;
+    font-style: italic;
+    color: lightgray;
+    bottom: -20px;
+    right: -30px;
+}
+
+.breakLine {
+    border-bottom: 4px solid #E5E5E5;
+    width: 50px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.feedbackUser {
+    color: #b3b3b3;
+}
+
+.feedbackLabel {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.feedbackHeight {
+    height: 500px;
+}
+
+@media only screen and ( max-width: 600px ) {
+    .feedbackHeight {
+        height: 550px;
+    }
+
+    .feedbackContainer {
+        max-width: 300px;
+    }
+
+    .closeQ {
+        bottom: 55px;
+    }
+}
